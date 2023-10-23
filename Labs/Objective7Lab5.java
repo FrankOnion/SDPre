@@ -22,9 +22,7 @@ public class Objective7Lab5 {
 			} else if(selection == 3) {
 				System.out.println("Goodbye");
 				break;
-			} else if(selection > 3) {
-				System.out.println("I dont't understand, choose an option 1 through 3");
-			} else if(selection < 1) {
+			} else if(1 > selection | selection > 3) {
 				System.out.println("I dont't understand, choose an option 1 through 3");
 			}
 		}
